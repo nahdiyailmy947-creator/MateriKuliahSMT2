@@ -1,12 +1,12 @@
 # 1. dengan menggunakan kurung kurawal {}
 import sys
-kataSambung = {"semangka", "pisang", "appel"}
+kataSambung = {"mangga", "pisang", "nanas"}
 print(kataSambung)  
 print(type(kataSambung))
 print("ukuran memori:", sys.getsizeof(kataSambung))
 
 # 2. dengan menggunakan fungsi set()
-tokenword: set[str] = set(["semangka", "pisang", "appel"])
+tokenword: set[str] = set(["mangga", "pisang", "nanas"])
 print(tokenword)
 print(type(tokenword))
 print("ukuran memori:", sys.getsizeof(tokenword))
@@ -16,18 +16,18 @@ print("ukuran memori:", sys.getsizeof(tokenword))
 
 #menambahkan anggota set
 # 1. dengan menggunakan fungsi add()
-kataSambung.add("mangga")
+kataSambung.add("anggur")
 print(kataSambung)
 # 2. dengan menggunakan fungsi update()
-tokenword.update(["mangga", "jeruk"])
+tokenword.update(["anggur", "pepaya"])
 
 
 #menghapus anggota set
 # 1. remove
-kataSambung.remove("semangka")
+#kataSambung.remove("mangga")
 #print(kataSambung)
 # 2. discard
-kataSambung.discard("apel")
+#kataSambung.discard("pisang")
 #print(kataSambung)
 # 3. pop
 #kataSambung.pop()
@@ -38,8 +38,9 @@ print(tokenword)
 
 #implementasi operasi pada set
 # 1. union
-setA = {1, 2, 3}
-setB = {3, 4, 5}
+
+setA: set[int] = {1, 2, 3}
+setB: set[int] = {3, 4, 5}
 print(setA | setB) # hasilnya {1, 2, 3, 4, 5}
 print(setA.union(setB)) # hasilnya {1, 2, 3, 4, 5}
 # 2. intersection
@@ -49,5 +50,5 @@ print(setA.intersection(setB)) # hasilnya {3}
 print(setA - setB) # hasilnya {1, 2}
 print(setB.difference(setA)) # hasilnya {4, 5}
 # 4. symmetric difference
-print(setA ^ setB) # hasilnya {1, 2, 4,}
+print(setA ^ setB) # hasilnya {1, 2, 4, 5}
 print(setA.symmetric_difference(setB)) # hasilnya {1, 2, 4, 5}
