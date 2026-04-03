@@ -1,12 +1,12 @@
 # 1. dengan menggunakan kurung kurawal {}
 import sys
-kataSambung = {"semangka", "pisang", "apel"}
+kataSambung = {"semangka", "pisang", "appel"}
 print(kataSambung)  
 print(type(kataSambung))
 print("ukuran memori:", sys.getsizeof(kataSambung))
 
 # 2. dengan menggunakan fungsi set()
-tokenword: set[str] = set(["semangka", "pisang", "apel"])
+tokenword: set[str] = set(["semangka", "pisang", "appel"])
 print(tokenword)
 print(type(tokenword))
 print("ukuran memori:", sys.getsizeof(tokenword))
