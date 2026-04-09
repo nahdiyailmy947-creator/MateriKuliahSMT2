@@ -8,7 +8,7 @@ print (sys.getsizeof(logApps))
 logAppsList = ["user1 login"]
 print(logAppsList)
 print("memiliki ukurna list", sys.getsizeof(logAppsList))
-print("akbarganteng")
+print("nahdiyacantik")
 
 #pembuktian Tuple tidak bisa diubaT
 # 1. Tambah 

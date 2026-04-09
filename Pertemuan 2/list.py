@@ -7,7 +7,7 @@ lst
 print(lst)
 #sifat list
 #fleksibilitas Tipe Data Elemen List
-listku = ["mahardika", 1, True, 4.6]
+listku = ["Nahdiyacantik", 1, True, 4.6]
 print (listku)
 
 #mutable(manipulasi)
@@ -29,20 +29,20 @@ listtinggi_badan = [162,177,182,150,166]
 print(listtinggi_badan[:4])
 
 #data
-suhu_keluarga_ucup =['ayah ucup', 19, 'ucup', 19, 'ibu ucup', 20]
+suhu_keluarga_nahdiya =['ayah nahdiya', 54, 'nahdiya', 19, 'mamah nahdiya', 53]
 #mengubah suhu
-suhu_keluarga_ucup[3] = [24]
-print(suhu_keluarga_ucup)
+suhu_keluarga_nahdiya[3] = [24]
+print(suhu_keluarga_nahdiya)
 
-suhu_keluarga_ucup[-2:] = ['mamah ucup', 22]
-print(suhu_keluarga_ucup)
+suhu_keluarga_nahdiya[-2:] = ['mamah nahdiya', 54]
+print(suhu_keluarga_nahdiya)
 
 #menghapus elemen list
-murid = ['Ayu', 'Bagas', 'Fajar', 'Cahyo', 'Ani']
+murid = ['Fitria', 'Abbie', 'Lasiah', 'piqa', 'Nala']
 del murid[2]
 print(murid[2])
-murid = ['Ayu', 'Bagas', 'Fajar', 'Cahyo', 'Ani']
-murid.remove('Cahyo')
+murid = ['Fitria', 'Abbie', 'Lasiah', 'piqa', 'Nala']
+murid.remove('Lasiah')
 print(murid)
 
 #list comprehension
