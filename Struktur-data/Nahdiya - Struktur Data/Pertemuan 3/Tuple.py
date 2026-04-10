@@ -7,7 +7,7 @@ print (sys.getsizeof(logApps))
 #membuktikan memory Tuple lebih efisien dari list 
 logAppsList = ["user1 login"]
 print(logAppsList)
-print("memiliki ukurna list", sys.getsizeof(logAppsList))
+print("memiliki ukuran list", sys.getsizeof(logAppsList))
 print("nahdiyacantik")
 
 #pembuktian Tuple tidak bisa diubaT
